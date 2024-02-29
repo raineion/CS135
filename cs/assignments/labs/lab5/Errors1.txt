@@ -1,0 +1,12 @@
+e 1
+er 2
+err 3
+error 4
+whoops 5
+fail 6
+invalid 7
+bad 8
+asdf 9
+fdsa 10
+;lkj 11
+jkl; 12
