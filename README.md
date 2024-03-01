@@ -1,4 +1,4 @@
-# cs135
+# CS135
 
 This is a README file for my GitHub repository. It provides information about my beginning class for cs135.
 
