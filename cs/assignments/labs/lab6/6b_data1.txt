@@ -1,0 +1,8 @@
+alex 84
+john 97
+jane 99
+alex 91
+alex 95
+jane 100
+john 98
+ted 55

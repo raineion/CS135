@@ -15,23 +15,23 @@ using namespace std;
 int main() {
     string filename;
     ifstream inputFile;
-    double numbers[100]; // Static size of 100 as per instructions
+    double numbers[100];
     double temp = 0;
-    int validNumbersCount = 0;
+    int validNumbersCount = 0; 
     double min = 0, max = 0, sum = 0, average = 0;
 
     // Keep prompting for the file name until a valid file is opened
     while (true) {
         cout << "Enter a file name\n";
         cout << "**";
-        cin >> filename;
-        cout << endl;
+        cin >> filename; // Get the file name
+        cout << endl; // newline
         inputFile.open(filename);
         if (!inputFile) {
             cout << "Error: Invalid file name.\n";
-            inputFile.clear(); // Make sure we can use the stream again
+            inputFile.clear();
         } else {
-            break; // Exit loop if file successfully opened
+            break; 
         }
     }
 
@@ -55,7 +55,7 @@ int main() {
 
     // Calculate average
     if (validNumbersCount > 0) {
-        average = sum / validNumbersCount;
+        average = sum / validNumbersCount; // Calculate average
     }
 
     // Output the results
@@ -74,7 +74,7 @@ int main() {
     }
     cout << "\nMinimum: " << min << "\n";
     cout << "Maximum: " << max << "\n";
-    cout << "Sum: " << sum << "\n";
+    cout << "Sum: " << sum << "\n"; 
     cout << "Average: " << average << "\n";
 
     inputFile.close(); // Close the file
