@@ -1,6 +1,6 @@
 # CS135
 
-This is a README file for my GitHub repository. It provides information about my beginning class for cs135.
+This is a README file for my GitHub repository. It provides information about my beginning class for CS135.
 
 ## Introduction
 In this class, we will cover the fundamentals of computer science and programming. We will learn about algorithms, data structures, and problem-solving techniques.
